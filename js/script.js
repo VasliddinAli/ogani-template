@@ -1,3 +1,5 @@
+"use strict";
+
 (function ($) {
   /*------------------
         Preloader
@@ -40,6 +42,14 @@
     );
     $(".humberger__menu__overlay").removeClass("active");
     $("body").removeClass("over_hid");
+  });
+
+  /*------------------
+		Navigation
+	--------------------*/
+  $(".mobile-menu").slicknav({
+    prependTo: "#mobile-menu-wrap",
+    allowParentLinks: true,
   });
 
   /*-----------------------
