@@ -554,7 +554,7 @@ ol {
   position: absolute;
   right: 18px;
   top: 9px;
-  content: "";
+  content: "3";
   font-family: "ElegantIcons";
   font-size: 18px;
   color: #ffffff;
@@ -673,6 +673,10 @@ ol {
 .hero__search__phone__text span {
   font-size: 14px;
   color: #6f6f6f;
+}
+
+.icon_tag_alt:before {
+  content: "\e017";
 }
 
 .hero__item {
